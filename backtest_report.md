@@ -29,7 +29,7 @@
 
 | Timeframe | 26p Return [%] | 26p Win Rate [%] | 26p # Trades | 26p Details | 9p Return [%] | 9p Win Rate [%] | 9p # Trades | 9p Details |
 |-----------|---------------|----------------|-------------|---------|---------------|----------------|-------------|---------|
-| 1d | 0.00 | N/A | 0 | [trades](./BNBUSDT/1d/TriplePatternStrategy_26p_trades.md) [plot](./BNBUSDT/1d/TriplePatternStrategy_26p_equity_curve.html) | 0.00 | N/A | 0 | [trades](./BNBUSDT/1d/TriplePatternStrategy_9p_trades.md) [plot](./BNBUSDT/1d/TriplePatternStrategy_9p_equity_curve.html) |
+| 1d | 0.00 | N/A | 0 | [trades](./BNBUSDT/1d/TriplePatternStrategy_26p_trades.md) [plot](./BNBUSDT/1d/TriplePatternStrategy_26p_equity_curve.html) | 0.00 | N/A | 0 | [trades](./BNBUSDT/1d/TriplePatternStrategy_9p_trades.md) [plot]({{ site.baseurl }}/BNBUSDT/1d/TriplePatternStrategy_9p_equity_curve.html) |
 | 1h | -5.84 | 38.8 | 67 | [trades](./BNBUSDT/1h/TriplePatternStrategy_26p_trades.md) [plot](./BNBUSDT/1h/TriplePatternStrategy_26p_equity_curve.html) | -24.60 | 33.0 | 88 | [trades](./BNBUSDT/1h/TriplePatternStrategy_9p_trades.md) [plot](./BNBUSDT/1h/TriplePatternStrategy_9p_equity_curve.html) |
 | 4h | 4.17 | 55.6 | 9 | [trades](./BNBUSDT/4h/TriplePatternStrategy_26p_trades.md) [plot](./BNBUSDT/4h/TriplePatternStrategy_26p_equity_curve.html) | 0.42 | 54.5 | 11 | [trades](./BNBUSDT/4h/TriplePatternStrategy_9p_trades.md) [plot](./BNBUSDT/4h/TriplePatternStrategy_9p_equity_curve.html) |
 
