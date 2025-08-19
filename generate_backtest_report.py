@@ -1,6 +1,8 @@
 import pandas as pd
 from collections import defaultdict
 
+BASE_URL = "https://vistia-ai.github.io/backtest"  # change it to "." if preview local
+
 def generate_backtest_report():
     # Read the CSV file
     df = pd.read_csv('backtest_summary.csv')
@@ -118,7 +120,7 @@ def generate_backtest_report():
                         
                         # Generate links to detail files
                         trades_link = f"./{symbol}/{timeframe}/{strategy_name}_{variant}_trades.md"
-                        plot_link = f"./{symbol}/{timeframe}/{strategy_name}_{variant}_equity_curve.html"
+                        plot_link = f"{BASE_URL}/{symbol}/{timeframe}/{strategy_name}_{variant}_equity_curve.html"
                         details = f"[trades]({trades_link}) [plot]({plot_link})"
                     else:
                         return_pct = '-'
