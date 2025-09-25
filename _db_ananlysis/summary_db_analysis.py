@@ -283,6 +283,7 @@ def generate_trade_summary_report(csv_paths: List[str], output_path: str) -> Non
         
         # Raw data tables
         report_content += "---\n\n## Raw Data Sources\n\n"
+        report_content += f"[data source]({csv_paths[0]})\n"
         report_content += create_raw_data_table(combined_df, 'BUY')
         report_content += "\n"
         report_content += create_raw_data_table(combined_df, 'SELL')
@@ -301,13 +302,13 @@ def main():
     Main function to execute the trade analysis.
     """
     # Find all CSV files in the _db_ananlysis directory
-    csv_pattern = "_db_ananlysis/**/*.csv"
-    csv_files = glob.glob(csv_pattern, recursive=True)
+    # csv_pattern = "_db_ananlysis/**/*.csv"
+    # csv_files = glob.glob(csv_pattern, recursive=True)
     
-    if not csv_files:
-        logger.error("No CSV files found in _db_ananlysis directory")
-        return
-    
+    # if not csv_files:
+    #     logger.error("No CSV files found in _db_ananlysis directory")
+    #     return
+    csv_files = ["_db_ananlysis\\BTCUSDT\\adx14.csv"]
     logger.info(f"Found {len(csv_files)} CSV files: {csv_files}")
     
     # Generate report
