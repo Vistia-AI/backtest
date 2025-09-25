@@ -37,7 +37,7 @@ Generated on: 2025-09-25 12:32:03
 ---
 
 ## Raw Data Sources
-[data source](_db_ananlysis\BTCUSDT\adx14.csv)
+[data source](_db_ananlysis/BTCUSDT/adx14.csv)
 ### All BUY Orders
 | Strategy | Symbol | Date | Price | High>Price | Low<Price | Close>Price | Close<Price |
 |----------|--------|------|-------|------------|-----------|-------------|-------------|

@@ -283,7 +283,9 @@ def generate_trade_summary_report(csv_paths: List[str], output_path: str) -> Non
         
         # Raw data tables
         report_content += "---\n\n## Raw Data Sources\n\n"
-        report_content += f"[data source]({csv_paths[0]})\n"
+        # Format the file path to a URL-style path (forward slashes)
+        url_path = csv_paths[0].replace("\\", "/")
+        report_content += f"[data source]({url_path})\n"
         report_content += create_raw_data_table(combined_df, 'BUY')
         report_content += "\n"
         report_content += create_raw_data_table(combined_df, 'SELL')
